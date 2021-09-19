@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>展示所有账户信息</title>
+    <script src="js/axios-0.18.0.js"></script>
+    <script src="js/vuejs-2.5.16.js"></script>
+</head>
+<body>
+    <div id="app">
+        <table border="1" cellspacing="0" width="400px" align="center">
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>money</th>
+                <th>操作</th>
+            </tr>
+            <tr v-for="(account,index) in accountList">
+                <td v-html="account.id"></td>
+                <td v-html="account.name"></td>
+                <td v-html="account.money"></td>
+                <td>
+                    <input type="button" value="删除" @click="deleteById(account.id)">
+                </td>
+            </tr>
+        </table>
+    </div>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            accountList:[]
+        },
+        methods:{
+            findAll(){
+                axios.get("/account/findAll").then(response=>{
+                    this.accountList = response.data.result
+                })
+            },
+            deleteById(id){
+                axios.get("/account/"+id).then(response=>{
+                    if (response.data.flag) {
+                        this.findAll()
+                    }
+                })
+            }
+        },
+        created(){
+            this.findAll()
+        }
+    })
+</script>
+</body>
+</html>

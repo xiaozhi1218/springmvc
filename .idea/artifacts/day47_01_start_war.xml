@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day47_01_start:war">
+    <output-path>$PROJECT_DIR$/day47_01_start/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>day47_01_start</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="day47_01_start-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="day47_01_start:war exploded" />
+    </root>
+  </artifact>
+</component>

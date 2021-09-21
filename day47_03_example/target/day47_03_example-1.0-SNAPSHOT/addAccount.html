@@ -28,6 +28,7 @@
                    axios.post("/account/addAccount",params).then(response=>{
                        if (response.data.flag) {
                            //添加成功,跳转到查询页面
+                           console.log(response)
                            location.href = "/accountList.html"
                        }
                    })

@@ -7,6 +7,12 @@
     <file type="web" url="file://$PROJECT_DIR$/day47_01_start" />
     <file type="web" url="file://$PROJECT_DIR$/day47_02_springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/day47_03_example" />
+    <file type="web" url="file://$PROJECT_DIR$/day48_01_upload_v1" />
+    <file type="web" url="file://$PROJECT_DIR$/day48_02_upload_v2" />
+    <file type="web" url="file://$PROJECT_DIR$/day48_03_exceptionhandler" />
+    <file type="web" url="file://$PROJECT_DIR$/day48_04_handlerinterceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/file_server" />
+    <file type="web" url="file://$PROJECT_DIR$/mm_backend_management" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,6 +20,11 @@
         <option value="$PROJECT_DIR$/day47_01_start/pom.xml" />
         <option value="$PROJECT_DIR$/day47_02_springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/day47_03_example/pom.xml" />
+        <option value="$PROJECT_DIR$/day48_01_upload_v1/pom.xml" />
+        <option value="$PROJECT_DIR$/day48_02_upload_v2/pom.xml" />
+        <option value="$PROJECT_DIR$/day48_03_exceptionhandler/pom.xml" />
+        <option value="$PROJECT_DIR$/file_server/pom.xml" />
+        <option value="$PROJECT_DIR$/mm_backend_management/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,6 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/day47_01_start/day47_01_start.iml" filepath="$PROJECT_DIR$/day47_01_start/day47_01_start.iml" />
       <module fileurl="file://$PROJECT_DIR$/day47_02_springmvc/day47_02_springmvc.iml" filepath="$PROJECT_DIR$/day47_02_springmvc/day47_02_springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/day47_03_example/day47_03_example.iml" filepath="$PROJECT_DIR$/day47_03_example/day47_03_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day48_01_upload_v1/day48_01_upload_v1.iml" filepath="$PROJECT_DIR$/day48_01_upload_v1/day48_01_upload_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day48_02_upload_v2/day48_02_upload_v2.iml" filepath="$PROJECT_DIR$/day48_02_upload_v2/day48_02_upload_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day48_03_exceptionhandler/day48_03_exceptionhandler.iml" filepath="$PROJECT_DIR$/day48_03_exceptionhandler/day48_03_exceptionhandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file_server/file_server.iml" filepath="$PROJECT_DIR$/file_server/file_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mm_backend_management/mm_backend_management.iml" filepath="$PROJECT_DIR$/mm_backend_management/mm_backend_management.iml" />
     </modules>
   </component>
 </project>

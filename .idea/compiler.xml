@@ -8,14 +8,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day47_02_springmvc" />
+        <module name="file_server" />
+        <module name="mm_backend_management" />
         <module name="day47_01_start" />
+        <module name="day48_03_exceptionhandler" />
         <module name="day47_03_example" />
+        <module name="day48_02_upload_v2" />
+        <module name="day48_01_upload_v1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day47_01_start" target="1.8" />
       <module name="day47_02_springmvc" target="1.8" />
       <module name="day47_03_example" target="1.8" />
+      <module name="day48_01_upload_v1" target="1.8" />
+      <module name="day48_02_upload_v2" target="1.8" />
+      <module name="day48_03_exceptionhandler" target="1.8" />
+      <module name="day48_04_handlerinterceptor" target="1.8" />
+      <module name="file_server" target="1.8" />
+      <module name="mm_backend_management" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -15,6 +15,7 @@
         <module name="day47_03_example" />
         <module name="day48_02_upload_v2" />
         <module name="day48_01_upload_v1" />
+        <module name="day48_04_handlerinterceptor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
